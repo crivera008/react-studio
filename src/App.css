@@ -1,9 +1,67 @@
 /* Add styling for your page here */
 
 .App {
-
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
 }
 
 .BakeryItem {
-  
+    background-color: rgb(251, 234, 240);
+    width: 40%;
+    margin: 3%;
+    border-radius: 2%;
 }
+
+img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    padding: 4%;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 70%;
+    align-items: baseline;
+}
+
+.title {
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+#title2 {
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+.cart {
+    justify-content: flex-start;
+    padding-top: 3%;
+}
+
+button {
+    background-color: rgb(251, 234, 240);
+    border: solid 2px rgb(149, 112, 125);
+    border-radius: 10%;
+    padding: 2% 4% 2% 4%;
+}
+
+button:hover {
+    background-color: rgb(242, 208, 220);
+}
+
